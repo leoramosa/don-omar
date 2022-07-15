@@ -5526,6 +5526,15 @@ body > .jcf-select-drop.jcf-drop-flipped {
   }
 }
 @media only screen and (max-width: 576px) {
+  .precio_uno,
+  .precio_dos,
+  .precio_tres,
+  .precio_cuatro,
+  .precio_cinco,
+  .precio_seis,
+  .precio_siete {
+    padding: 6px 0;
+  }
   .subscribe-form {
     padding-bottom: 20px;
   }
