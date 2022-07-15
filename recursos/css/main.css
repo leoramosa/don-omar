@@ -126,10 +126,14 @@
 .precio_zona_3,
 .precio_zona_4,
 .precio_zona_5,
-.precio_zona_6,
 .precio_zona_7 {
   padding: 8px 0;
   color: #000;
+}
+
+.precio_zona_6 {
+  padding: 8px 0;
+  color: rgb(255, 255, 255);
 }
 
 .precio_uno {
