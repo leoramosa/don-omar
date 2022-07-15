@@ -5608,6 +5608,10 @@ body > .jcf-select-drop.jcf-drop-flipped {
     font-size: 12px;
     letter-spacing: 1´x;
   }
+  .scheme-mark .place-name {
+    font: 900 0.5rem "Monument Bold", sans-serif !important;
+    font-size: 10px;
+  }
 }
 @media only screen and (max-width: 412px) {
   .card-biography {
@@ -5736,6 +5740,15 @@ body > .jcf-select-drop.jcf-drop-flipped {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: "Monument", Helvetica, sans-serif;
+  }
+
+  .scheme-mark .place-name {
+    font: 900 0.5rem "Monument Bold", sans-serif !important;
+    font-size: 10px;
+  }
+  .scheme-mark .place-name span {
+    display: block;
+    font-size: 5px;
   }
 }
 
