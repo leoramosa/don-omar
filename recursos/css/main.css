@@ -5599,7 +5599,11 @@ body > .jcf-select-drop.jcf-drop-flipped {
 
   .precio_linea_1,
   .precio_linea_2,
-  .precio_linea_3 {
+  .precio_linea_3,
+  .precio_linea_4,
+  .precio_linea_5,
+  .precio_linea_6,
+  .precio_linea_7 {
     padding: 10px 5px;
     font-size: 12px;
     letter-spacing: 1´x;
