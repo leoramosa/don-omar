@@ -5608,9 +5608,13 @@ body > .jcf-select-drop.jcf-drop-flipped {
     font-size: 12px;
     letter-spacing: 1´x;
   }
+
   .scheme-mark .place-name {
-    font: 900 0.5rem "Monument Bold", sans-serif !important;
-    font-size: 10px;
+    font: 900 0.7rem "Monument Bold", sans-serif !important;
+  }
+  .scheme-mark .place-name span {
+    display: block;
+    font-size: 7px;
   }
 }
 @media only screen and (max-width: 412px) {
@@ -5721,7 +5725,11 @@ body > .jcf-select-drop.jcf-drop-flipped {
 
   .precio_zona_1 span,
   .precio_zona_2 span,
-  .precio_zona_3 span {
+  .precio_zona_3 span,
+  .precio_zona_4 span,
+  .precio_zona_5 span,
+  .precio_zona_6 span,
+  .precio_zona_7 span {
     font-size: 8px;
   }
 
@@ -5740,15 +5748,6 @@ body > .jcf-select-drop.jcf-drop-flipped {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: "Monument", Helvetica, sans-serif;
-  }
-
-  .scheme-mark .place-name {
-    font: 900 0.5rem "Monument Bold", sans-serif !important;
-    font-size: 10px;
-  }
-  .scheme-mark .place-name span {
-    display: block;
-    font-size: 5px;
   }
 }
 
