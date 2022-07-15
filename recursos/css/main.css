@@ -211,7 +211,11 @@
 
 .precio_zona_1 span,
 .precio_zona_2 span,
-.precio_zona_3 span {
+.precio_zona_3 span,
+.precio_zona_4 span,
+.precio_zona_5 span,
+.precio_zona_6 span,
+.precio_zona_7 span {
   font-size: 12px;
 }
 
