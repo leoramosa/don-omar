@@ -505,7 +505,12 @@ textarea {
 }
 
 .info {
-  text-align: justify;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 100;
+  font-family: arial;
+  color: #afafaf;
+  padding-bottom: 30px;
 }
 
 .franja {
@@ -675,7 +680,6 @@ textarea {
 }
 
 .main-event-concert {
-  padding: 0;
   /*background: url('../images/back.jpg') no-repeat center center;*/
   background-size: cover;
   -webkit-background-size: cover;
@@ -5528,6 +5532,9 @@ body > .jcf-select-drop.jcf-drop-flipped {
   }
 }
 @media only screen and (max-width: 576px) {
+  .info {
+    font-size: 12px;
+  }
   .precio_uno,
   .precio_dos,
   .precio_tres,
@@ -5754,8 +5761,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
   .covid {
     font-size: 10px;
     text-align: justify;
-    border: 1px solid #ff2682;
-    color: #ff2682;
+
     padding: 20px 20px 5px;
     margin-bottom: 30px;
     border-radius: 10px;
