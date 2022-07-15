@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .global {
+        display: flex;
+      }
+
+      .caja2 img {
+        width: 100%;
+      }
+
+      .caja2::before {
+        display: block;
+        content: url("https://cdn.teleticket.com.pe/images/eventos/orb007_tarifario-v3.gif");
+        height: 50px;
+        width: 50px;
+        position: absolute;
+      }
+
+      .caja1 {
+        width: 500px;
+        height: 800px;
+        background-color: #4e6d81;
+      }
+      .caja2 {
+        width: 500px;
+        height: 800px;
+        display: inline-block;
+        background-color: #4e6d813f;
+      }
+      .caja2 img {
+        width: 100%;
+      }
+    </style>
+
+    <div class="global">
+      <div class="caja1"></div>
+      <div class="caja2"></div>
+    </div>
+  </body>
+</html>
